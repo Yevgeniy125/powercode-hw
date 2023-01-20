@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <button class="open__btn" id="open-btn">Show Modal</button>
+
+    <div class="container" id="back-drop">
+        <div class="modal" id="modal">
+            <button class="close__btn" id="close-btn"><img class="close__img" src="assets/close.svg" alt="close"></button>
+            <div class="background">
+                <h1>Login</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem.</p>
+                <div class="social__login">
+                    <button><img src="assets/apple.svg" alt="apple"></button>
+                    <button><img src="assets/facebook.svg" alt="facebook"></button>
+                    <button><img src="assets/google.svg" alt="google"></button>
+                </div>
+                <div class="line">
+                    <div class="line__left"></div>
+                    <p>OR</p>
+                    <div class="line__right"></div>
+                </div>
+                <div class="email">
+                    <label class="email__label" for="email">Email</label>
+                    <input class="email__input" type="text" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="password">
+                    <label class="password__label" for="password">Password</label>
+                    <input class="password__input" type="text" name="password" id="password" placeholder="Password">
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="scales" name="scales" checked />
+                    <label for="scales">Remember me</label>
+                </div>
+                <a href="#">Forgot password?</a>
+                <button class="enter__btn">Enter</button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>

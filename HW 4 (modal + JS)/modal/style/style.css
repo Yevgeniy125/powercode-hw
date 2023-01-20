@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.open__btn{
+    width: 150px;
+    height: 50px;
+    background: #E2AB1C;
+
+    
+}
+
+.container {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(20, 192, 174, 0.3);
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    
+    background: #FFFFFF;
+    border: 2px solid #DBDBDB;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.close__btn {
+    display: flex;
+    width: 24px;
+    position: absolute;
+    left: 757px;
+    top: 156px;
+    background-color: #fff;
+    border: none;
+}
+
+
+.background {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 57px;
+}
+
+.background h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #000000;
+}
+
+.background p {
+    padding-top: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+}
+
+.social__login {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 35px;
+}
+
+.social__login button {
+    width: 120px;
+    height: 44px;
+
+    background: #FFFFFF;
+    border: 1px solid #D2D5DA;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.line__left {
+    width: 175px;
+    border-top: 1px solid #CFCFCF;
+}
+
+.line p {
+    width: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13px;
+    color: #CFCFCF;
+}
+
+.line__right {
+    width: 175px;
+    border-top: 1px solid #CFCFCF;
+}
+
+
+.email__label{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+}
+
+.email__input {
+    padding-left: 16px;
+    display: block;
+    width: 362px;
+    height: 46px;
+    background: #FFFFFF;
+    
+    border: 1px solid #D2D5DA;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6C727F;
+}
+
+.password__label {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background: #fff;
+}
+
+.password__input {
+    padding-left: 16px;
+    display: block;
+    width: 362px;
+    height: 46px;
+    background: #FFFFFF;
+
+    border: 1px solid #D2D5DA;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6C727F;
+}
+
+.checkbox {
+    margin-top: 10px;
+}
+
+.checkbox label {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.background a {
+    margin-top: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #E12828;
+}
+
+.enter__btn {
+    margin-top: 35px;
+    margin-bottom: 51px;
+    padding: 16px 153px 16px 153px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #E2AB1C;
+    border-radius: 8px;
+}
